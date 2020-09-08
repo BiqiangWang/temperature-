@@ -7,12 +7,12 @@
 		<span id="msg-ctr">消息中心</span>
 		<span id="fav">收藏夹</span>
 		<span id="create" @click="topMenuToggle">创作<img src="../assets/menu.png" alt="按钮"/></span>
-		<div id="top-menu" v-if="isMenuShow">
-			<div id="t-m-publish-article" class="t-m-button" :style="{top: TMTop, left: MLeft + 'px'}">发表文章</div>
-			<div id="t-m-publish-topic" class="t-m-button">发表话题</div>
-			<div id="t-m-upload-image" class="t-m-button">上传图片</div>
-		</div>
-		<img id="avatar" src="../assets/head1.jpg" alt="用户">
+				<div id="top-menu" v-if="isMenuShow">
+					<div id="t-m-publish-article" class="t-m-button" :style="{top: TMTop, left: MLeft + 'px'}">发表文章</div>
+					<div id="t-m-publish-topic" class="t-m-button">发表话题</div>
+					<div id="t-m-upload-image" class="t-m-button">上传图片</div>
+				</div>
+		<img id="avatar" src="../assets/logo.png" alt="用户">
 		<span id="sign-in-up">登录|注册</span>
 	</div>
    
